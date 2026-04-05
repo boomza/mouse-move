@@ -3,7 +3,6 @@ name: Build for Mac ARM
 on:
   push:
     branches: [ main ]
-    branches-ignore: [ builds/mac-arm ]
   workflow_dispatch:
 
 jobs:
